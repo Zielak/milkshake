@@ -131,7 +131,8 @@ var MilkdropPreset = Class.extend({
       } else {
         this[internalParam] = paramType(value);
       }
-    },
+    }
+  },
 
   varInit: function() {
     var testPool = new PresetFrameVariablePool();
